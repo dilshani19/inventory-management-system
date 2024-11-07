@@ -197,10 +197,10 @@ public class CUSTOMER extends javax.swing.JFrame {
         String MOBILE=  TXTM.getText();
         String ADDRESS= TXTA.getText();
         
-        if(validateFields()){
+        /*if(validateFields()){
             JOptionPane.showMessageDialog(null,"All Fields Required");
             
-        }
+        }*/
         else{
             try{
                 Connection con=connectionprovider.getCon();
